@@ -11,7 +11,7 @@ public class FirstSetBit {
 		System.out.println(getFirstSetBit(12));
 	}
 	public static int getFirstSetBit(int n){
-        LinkedList<Integer> bit = new LinkedList();
+        LinkedList<Integer> bit = new LinkedList<Integer>();
         while(n!=0) {
         	bit.add((n%2));
         	n = n/2;
